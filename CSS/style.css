@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +9,7 @@
 }
 
 .logo {
-    width: 5em;
+    width: 5vw; 
 }
 
 header {
@@ -18,9 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #B8B68F;
-    padding-right: 1em;
-    padding-left: 1em;
-    
+    padding: 1vw; 
 }
 
 nav ul {
@@ -31,7 +28,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 1em;
+    padding: 1vw; 
 }
 
 a {
@@ -46,31 +43,30 @@ a:hover {
 }
 
 h1 {
-    padding-top: 2em;
-    margin-left: 1em;
+    padding-top: 2vw; 
+    margin-left: 1vw; 
     font-family: 'roboto condensed';
-    font-size: 25px;
+    font-size: 2vw; 
     font-weight: 300;
 }
 
 .linha-vertical {
-    border-bottom: 2px solid #D0C0A7;
-    margin-left: 1em;
-    margin-right: 1em;
-    
+    border-bottom: 0.2vw solid #D0C0A7; 
+    margin-left: 1vw; 
+    margin-right: 1vw; 
 }
 
 .quadros-index {
-    width: 24em;
-    margin-top: 1em;
-    margin-left: 1em;
+    width: 20%;
+    margin-top: 1vw; 
+    margin-left: 1vw; 
     float: right;
-    margin-right: 4em;
+    margin-right: 4vw; 
 }
 
 .container p {
-    padding: 5em;
-    font-size: 20px;
+    padding: 5vw; 
+    font-size: 1.5vw; 
     font-family: 'roboto condensed';
     font-weight: 300;
 }
@@ -80,7 +76,7 @@ h1 {
 }
 
 button {
-    width: 10em;
+    width: 10vw; 
     height: 3em;
     border-radius: 1px 1em;
     border: none;
@@ -89,43 +85,39 @@ button {
     background-color: #B8B68F;
 }
 
-
 main {
     background-color: #EBE6D2;
     margin: 0;
-    padding-bottom: 8em;
+    padding-bottom: 5vw; 
 }
 
 footer {
    background-color: #B8B68F;
-    padding-top: 0.5em;
+    padding-top: 0.5vw; 
     display: flex;
 }
 
 .icon img {
-    width: 30px;
+    width: 3vw; 
     float: left;
-    margin-left: 2em;
-    padding-right: 0.5em;
+    margin-left: 2vw; 
+    padding-right: 0.5vw; 
     display: block;
 }
-
 
 span {
     display: block;
-    padding: 1em;
-
+    padding: 1vw; 
 }
 
-.p-footer{
-    
+.p-footer {
     width: 8%;
     height: 10%;
-    padding-left: 4.8%;
+    padding-left: 4.8vw; 
     text-align: justify;
     display: flex;
     box-sizing: border-box;
-    margin-right: 8%;
+    margin-right: 8vw; 
     float: right;
     font-family: 'roboto condensed';
 }
@@ -133,24 +125,18 @@ span {
 .quadros {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
-    
-
+    justify-content: center;
 }
 
 .produto {
-    font-family:'roboto condensed';
+    font-family: 'roboto condensed';
     display: inline-block;
-
+    margin: 1vw; 
+    padding: 2vw; 
 }
 
 .produto img {
-    width: 10em;
-}
-
-.produto {
-    margin: 1em;
-    padding: 2em;
+    width: 10vw; 
 }
 
 .produto li {
@@ -158,8 +144,7 @@ span {
 }
 
 .preco {
-font-family: 'roboto condensed';
-
+    font-family: 'roboto condensed';
 }
 
 h2 {
@@ -169,14 +154,14 @@ h2 {
 
 section {
     background-color: #EBE6D2;
-    padding-bottom: 2em;
+    padding-bottom: 2vw; 
 }
 
 .depoimentos img {
-    width: 4em;
+    width: 4vw; 
     float: left;
-    margin-left: 1.1em;
-    padding-right: 0.5em;
+    margin-left: 1vw; 
+    padding-right: 0.5vw; 
     display: flex;
     float: right;
 }
@@ -188,63 +173,55 @@ section {
 }
 
 .cliente {
-    padding-right: 2em;
-    display: flex; 
-    align-items: center; 
+    padding-right: 2vw; 
+    display: flex;
+    align-items: center;
 }
 
 .cliente img {
-    width: 6em;
     display: flex;
-  
 }
 
 .depoimentos p {
-margin-right: 4em;
-padding: 1em;
-font-family: 'roboto condensed';
-font-weight: 300;
-height: 4em;
-width: 15em;
-text-align: justify;
+    margin-right: 4vw; 
+    padding: 1vw; 
+    font-family: 'roboto condensed';
+    font-weight: 300;
+    height: 4em;
+    width: 15em;
+    text-align: justify;
 }
 
 h3 {
-    padding-top: 14%;
+    padding-top: 8vw; 
     text-align: center;
     font-family: 'roboto condensed';
-
 }
 
 form {
-    text-align: center;  
-    align-items: center; 
+    text-align: center;
+    align-items: center;
     justify-content: center;
-
 }
 
 .form {
     max-width: 30%;
     font-family: 'roboto condensed';
-    padding: 3%;
-    margin: 2%;
+    padding: 3vw; 
+    margin: 2vw; 
     display: inline-block;
-    border: 1px solid #B8B68F;
+    border: 0.1vw solid #B8B68F; 
     border-radius: 1px 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-
-    
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1); 
 }
 
 .mensagem {
     font-family: 'roboto condensed';
-    padding: 4em;
+    padding: 4vw; 
     display: block;
     align-items: center;
-    padding-left: 10%;
     border-radius: 1px 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1); 
 }
 
 input[type="text"],
@@ -254,46 +231,45 @@ textarea,
 select,
 input[type="number"] {
     border: none;
-    border-radius: 10%;
+    border-radius: 1vw; 
 }
 
 input[type="submit"] {
     width: auto;
-    padding: 10px 20px;
+    padding: 1vw 2vw; 
     background-color: #B8B68F;
     color: black;
     border: none;
     border-radius: 1px 1em;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 3vw; 
 }
 
 input[type="submit"]:hover {
-    background-color:olive;
+    background-color: olive;
 }
 
 textarea {
-    width: 100%; 
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; 
-    
+    width: 100%;
+    padding: 1vw;
+    margin: 0.5vw 0;
+    border: 0.1vw solid #ccc; 
+    border-radius: 1vw; 
+    box-sizing: border-box;
 }
 
 fieldset {
-    width: 80%; 
-    margin: 0 auto; 
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px; 
+    width: 80%;
+    margin: 0 auto;
+    padding: 2vw; 
+    border: 0.1vw solid #ccc; 
+    border-radius: 1vw; 
     font-family: 'roboto condensed';
 }
 
 p {
     font-family: 'roboto condensed';
-    font-size: 20px;
-    margin: 1em;
+    font-size: 1.5vw; 
+    margin: 1vw;
 }
-
+ 
